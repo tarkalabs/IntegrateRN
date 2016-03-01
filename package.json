@@ -1,0 +1,14 @@
+{
+  "name": "integrate-rn",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-native": "^0.21.0"
+  }
+}

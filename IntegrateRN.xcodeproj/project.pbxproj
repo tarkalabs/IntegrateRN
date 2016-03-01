@@ -12,9 +12,14 @@
 		8BBABA581C861E3E00F96351 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBABA561C861E3E00F96351 /* Main.storyboard */; };
 		8BBABA5A1C861E3E00F96351 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BBABA591C861E3E00F96351 /* Assets.xcassets */; };
 		8BBABA5D1C861E3E00F96351 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BBABA5B1C861E3E00F96351 /* LaunchScreen.storyboard */; };
+		8BE10BED1C86295B00060D4C /* CustomRNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE10BEC1C86295B00060D4C /* CustomRNView.swift */; };
+		8BE10BEF1C862AF200060D4C /* CustomRNViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE10BEE1C862AF200060D4C /* CustomRNViewManager.swift */; };
+		8BE10BF31C862CC700060D4C /* CustomRNView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BE10BF21C862CC700060D4C /* CustomRNView.m */; };
+		A1A3F0159235A49175AFF309 /* Pods_IntegrateRN.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B21AB7F6D9A309BA3A049994 /* Pods_IntegrateRN.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FB6AD733A774AFEAA5CC4C0 /* Pods-IntegrateRN.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateRN.release.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateRN/Pods-IntegrateRN.release.xcconfig"; sourceTree = "<group>"; };
 		8BBABA4F1C861E3E00F96351 /* IntegrateRN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntegrateRN.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BBABA521C861E3E00F96351 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BBABA541C861E3E00F96351 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,13 @@
 		8BBABA591C861E3E00F96351 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8BBABA5C1C861E3E00F96351 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8BBABA5E1C861E3E00F96351 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BE10BEC1C86295B00060D4C /* CustomRNView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRNView.swift; sourceTree = "<group>"; };
+		8BE10BEE1C862AF200060D4C /* CustomRNViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomRNViewManager.swift; sourceTree = "<group>"; };
+		8BE10BF01C862CC700060D4C /* IntegrateRN-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IntegrateRN-Bridging-Header.h"; sourceTree = "<group>"; };
+		8BE10BF11C862CC700060D4C /* CustomRNView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomRNView.h; sourceTree = "<group>"; };
+		8BE10BF21C862CC700060D4C /* CustomRNView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomRNView.m; sourceTree = "<group>"; };
+		B21AB7F6D9A309BA3A049994 /* Pods_IntegrateRN.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IntegrateRN.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF02294A64C543186FAD7E1E /* Pods-IntegrateRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IntegrateRN.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IntegrateRN/Pods-IntegrateRN.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A3F0159235A49175AFF309 /* Pods_IntegrateRN.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +53,8 @@
 			children = (
 				8BBABA511C861E3E00F96351 /* IntegrateRN */,
 				8BBABA501C861E3E00F96351 /* Products */,
+				C8E82271ACB1D16AE4FAA3EB /* Pods */,
+				A14834BD309ABAF537A6B1A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +75,30 @@
 				8BBABA591C861E3E00F96351 /* Assets.xcassets */,
 				8BBABA5B1C861E3E00F96351 /* LaunchScreen.storyboard */,
 				8BBABA5E1C861E3E00F96351 /* Info.plist */,
+				8BE10BEC1C86295B00060D4C /* CustomRNView.swift */,
+				8BE10BEE1C862AF200060D4C /* CustomRNViewManager.swift */,
+				8BE10BF11C862CC700060D4C /* CustomRNView.h */,
+				8BE10BF21C862CC700060D4C /* CustomRNView.m */,
+				8BE10BF01C862CC700060D4C /* IntegrateRN-Bridging-Header.h */,
 			);
 			path = IntegrateRN;
+			sourceTree = "<group>";
+		};
+		A14834BD309ABAF537A6B1A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B21AB7F6D9A309BA3A049994 /* Pods_IntegrateRN.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8E82271ACB1D16AE4FAA3EB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF02294A64C543186FAD7E1E /* Pods-IntegrateRN.debug.xcconfig */,
+				0FB6AD733A774AFEAA5CC4C0 /* Pods-IntegrateRN.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BBABA611C861E3E00F96351 /* Build configuration list for PBXNativeTarget "IntegrateRN" */;
 			buildPhases = (
+				20693B0B2DF7620AC0ACD747 /* Check Pods Manifest.lock */,
 				8BBABA4B1C861E3E00F96351 /* Sources */,
 				8BBABA4C1C861E3E00F96351 /* Frameworks */,
 				8BBABA4D1C861E3E00F96351 /* Resources */,
+				4A1786F67FCE8A3B1ADE97F7 /* Embed Pods Frameworks */,
+				308A495D4DF223A3631F62E4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,11 +170,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20693B0B2DF7620AC0ACD747 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		308A495D4DF223A3631F62E4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntegrateRN/Pods-IntegrateRN-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4A1786F67FCE8A3B1ADE97F7 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IntegrateRN/Pods-IntegrateRN-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8BBABA4B1C861E3E00F96351 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BE10BF31C862CC700060D4C /* CustomRNView.m in Sources */,
+				8BE10BED1C86295B00060D4C /* CustomRNView.swift in Sources */,
+				8BE10BEF1C862AF200060D4C /* CustomRNViewManager.swift in Sources */,
 				8BBABA551C861E3E00F96351 /* ViewController.swift in Sources */,
 				8BBABA531C861E3E00F96351 /* AppDelegate.swift in Sources */,
 			);
@@ -247,23 +338,30 @@
 		};
 		8BBABA621C861E3E00F96351 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF02294A64C543186FAD7E1E /* Pods-IntegrateRN.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IntegrateRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarkalabs.IntegrateRN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntegrateRN/IntegrateRN-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		8BBABA631C861E3E00F96351 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB6AD733A774AFEAA5CC4C0 /* Pods-IntegrateRN.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = IntegrateRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarkalabs.IntegrateRN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "IntegrateRN/IntegrateRN-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -286,6 +384,7 @@
 				8BBABA631C861E3E00F96351 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
