@@ -6,8 +6,6 @@ The goal of this repo is to demonstrate how you could integrate React Native int
 
 To setup the app, do the following after checking out the project.
 
-
-    npm install -g react-native-cli
     npm install
     pod install
     npm start
