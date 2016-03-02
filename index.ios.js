@@ -7,15 +7,7 @@ import React, {
 } from 'react-native';
 
 
-class MessageView extends React.Component {
-  render() {
-    return <CustomRNView message={this.props.message}/>
-  }
-}
-MessageView.propTypes = {
-  message: React.PropTypes.string
-}
-var CustomRNView = requireNativeComponent('CustomRNView',MessageView);
+var CustomRNView = requireNativeComponent('CustomRNView',null);
 
 var styles = React.StyleSheet.create({
   container: {
@@ -30,7 +22,7 @@ class SimpleApp extends React.Component {
     return (
       <View style={styles.container}>
         <Text>This is a React Native app.</Text>
-        <MessageView message="This message will be "/>
+        <CustomRNView message="message will be"/>
       </View>
     )
   }

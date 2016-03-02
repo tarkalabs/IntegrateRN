@@ -8,7 +8,6 @@ class CustomRNView : UIView {
   var lblMessage:UILabel!
   
   override init(frame: CGRect) {
-    print("Custom view created")
     super.init(frame: frame)
     self.frame = frame
     
@@ -25,7 +24,6 @@ class CustomRNView : UIView {
       fatalError("init(coder:) has not been implemented")
   }
   func setMessage(message: NSString) {
-    print("custom message set to \(message)")
     lblMessage.text = "\(message) Swifted"
   }
 }

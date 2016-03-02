@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  IntegrateRN
-//
-//  Created by Vagmi Mudumbai on 01/03/16.
-//  Copyright © 2016 Vagmi Mudumbai. All rights reserved.
-//
-
 import UIKit
 import React
 import SnapKit
@@ -69,7 +61,6 @@ class ViewController: UIViewController {
         } else {
           completionHandler()
         }
-        
     }
   }
   
