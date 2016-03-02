@@ -13,6 +13,7 @@ target 'IntegrateRN' do
     'RCTWebSocket',
     # Add any other subspecs you want to use in your project
   ]
+  pod 'Alamofire'
 
   pod 'SnapKit'
 end

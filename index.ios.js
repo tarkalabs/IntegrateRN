@@ -20,7 +20,8 @@ var CustomRNView = requireNativeComponent('CustomRNView',MessageView);
 var styles = React.StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'gray'
+    backgroundColor: "#ffefef",
+    padding: 8
   }
 });
 
@@ -28,8 +29,8 @@ class SimpleApp extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text>This is a React Native app</Text>
-        <MessageView message="Hello world "/>
+        <Text>This is a React Native app.</Text>
+        <MessageView message="This message will be "/>
       </View>
     )
   }

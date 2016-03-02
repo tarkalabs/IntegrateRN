@@ -1,4 +1,5 @@
 PODS:
+  - Alamofire (3.2.1)
   - React/Core (0.21.0)
   - React/RCTImage (0.21.0):
     - React/Core
@@ -12,6 +13,7 @@ PODS:
   - SnapKit (0.19.1)
 
 DEPENDENCIES:
+  - Alamofire
   - React/Core (from `./node_modules/react-native`)
   - React/RCTImage (from `./node_modules/react-native`)
   - React/RCTNetwork (from `./node_modules/react-native`)
@@ -24,6 +26,7 @@ EXTERNAL SOURCES:
     :path: "./node_modules/react-native"
 
 SPEC CHECKSUMS:
+  Alamofire: f11d8624a05f5d39e0c99309b3e600a3ba64298a
   React: eb52e0f867cb73639c553f766d7e6e895003afeb
   SnapKit: eff58d6e3451bf2f482db2eccf86aecf371dc62d
 
